@@ -1,0 +1,28 @@
+flavors:
+  dev:
+    app:
+      name: "Flavors DEV"
+      main: "lib/environment/main_dev.dart"
+
+    android:
+      applicationId: "com.hrithikmishra.flavorsdemodev"  
+    ios:
+      bundleId: "com.hrithikmishra.flavorsdemodev"
+  staging:
+    app:
+      name: "Flavors STG"
+      main: "lib/environment/main_staging.dart"
+  
+    android:
+      applicationId: "com.hrithikmishra.flavorsdemostaging"
+    ios:
+      bundleId: "com.hrithikmishra.flavorsdemostaging"
+  prod:
+    app:
+      name: "Flavors Demo"
+      main: "lib/environment/main_prod.dart"
+  
+    android:
+      applicationId: "com.hrithikmishra.flavorsdemo"
+    ios:
+      bundleId: "com.hrithikmishra.flavorsdemo"

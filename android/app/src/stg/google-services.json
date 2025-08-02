@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601943345175",
+    "project_id": "flavor-demo-staging-6c500",
+    "storage_bucket": "flavor-demo-staging-6c500.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601943345175:android:f8786c5afc193973e6b452",
+        "android_client_info": {
+          "package_name": "com.hrithikmishra.flavorsdemostaging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp5lyoqjElNmkIfkEgCCIjoXC2B76p10g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

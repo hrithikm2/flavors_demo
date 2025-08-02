@@ -1,0 +1,21 @@
+android {
+    flavorDimensions += "flavor-type"
+
+    productFlavors {
+        dev {
+            dimension "flavor-type"
+            applicationId "com.hrithikmishra.flavorsdemodev"
+            resValue "string", "app_name", "Flavors DEBUG"
+        }
+        staging {
+            dimension "flavor-type"
+            applicationId "com.hrithikmishra.flavorsdemostaging"
+            resValue "string", "app_name", "Flavors STG"
+        }
+        prod {
+            dimension "flavor-type"
+            applicationId "com.hrithikmishra.flavorsdemo"
+            resValue "string", "app_name", "Flavors Demo"
+        }
+    }
+}
